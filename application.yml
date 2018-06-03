@@ -1,7 +1,7 @@
 
 spring.cloud.config.parent:
   application: demo-app-common
-  label: '{label}'
+  label: '{label}' # must quote, if not the 'spring.cloud.config.parent.label: {label}' will becomes 'spring.cloud.config.parent.label.label: ', tested on spring-boot:1.5.12.RELEASE
   password: demo-app-common_pass
 
 profile-sensitive: demo-app-config_none

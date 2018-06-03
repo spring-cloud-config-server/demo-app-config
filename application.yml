@@ -10,7 +10,7 @@ in-demo-app-only: in-demo-app-only
 
 in-both-demo-app-common-and-demo-app: demo-app
 
-demo-app-label-sensitive: master
+demo-app-label-sensitive: develop
 
 ---
 spring:

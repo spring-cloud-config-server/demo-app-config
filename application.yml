@@ -1,7 +1,7 @@
 
 spring.cloud.config.parent:
   application: demo-app-common
-  label: master
+  label: '{label}'
   password: demo-app-common_pass
 
 profile-sensitive: demo-app-config_none

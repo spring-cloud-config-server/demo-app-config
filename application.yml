@@ -2,6 +2,10 @@
 spring.cloud.config.parent:
   application: demo-app-common
   label: master # must quote, if not the 'spring.cloud.config.parent.label: {label}' will becomes 'spring.cloud.config.parent.label.label: ', tested on spring-boot:1.5.12.RELEASE
+  # encrypted by default-keystore.jks:
+  # AQAf3v+vDacU5qO1A40i0yIF/r+2ZyUoYDRkBqMZduybEC2prLZ+IqgmL0HtRbTyp46uquhFx/NEg5wvedMI3ytF1Ch6r0OeouCKRxJ1sc0dNmCPAb673b7lOGkEAccJg/5sJq8YeiRTBKQLdRMUrV1D23qpwZ8A6l70Y8CTzQpYGyiF2rxdoQPHqV6BgldA010Q52x+H54p7OcT72iJDGs+DSZmxoJ3q+0iKKPyfj8OctzmWkhGLIdGG5xTGAcX/yoA2siVBcJFRtaZrpvsERLLjF/NdAoz8s4nx51jJyFquFbMq59mqLdwSN51S+4i0tx88f15HZdXVA52CERFX3I7wGeRzq/Gd9jBkALDlr4xKoEV8BHskhdmoEDxXWwcdClwdo5q2mLZR/llAS3cmdCE
+  # plain text:
+  # demo-app-common_pass
   password: demo-app-common_pass
 
 profile-sensitive: demo-app-config_none

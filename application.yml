@@ -26,9 +26,9 @@ profile-sensitive: demo-app-config_default
 
 ---
 spring:
-  profiles: development.env
+  profiles: develop.env
 
-profile-sensitive: demo-app-config_development.env
+profile-sensitive: demo-app-config_develop.env
 
 ---
 spring:
